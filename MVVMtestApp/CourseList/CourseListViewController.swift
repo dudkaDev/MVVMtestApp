@@ -44,9 +44,11 @@ class CourseListViewController: UIViewController {
         navBarAppearance.configureWithOpaqueBackground()
         navBarAppearance.titleTextAttributes = [.foregroundColor: UIColor.white]
         navBarAppearance.largeTitleTextAttributes = [.foregroundColor: UIColor.white]
-        navBarAppearance.backgroundColor = .systemBlue
+        
+        navBarAppearance.backgroundColor = .gray
         navigationController?.navigationBar.standardAppearance = navBarAppearance
         navigationController?.navigationBar.scrollEdgeAppearance = navBarAppearance
+        navigationController?.navigationBar.tintColor = .white
     }
     
     private func showActivityIndicator(in view: UIView) -> UIActivityIndicatorView {
