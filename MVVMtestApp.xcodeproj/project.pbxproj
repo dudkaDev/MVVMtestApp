@@ -21,6 +21,7 @@
 		5545D4542993DB40008C7583 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5545D4532993DB40008C7583 /* DataManager.swift */; };
 		5545D4572993DCE3008C7583 /* CourseDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5545D4562993DCE3008C7583 /* CourseDetailsViewModel.swift */; };
 		5545D45B299525F9008C7583 /* CourseListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5545D45A299525F9008C7583 /* CourseListViewModel.swift */; };
+		5545D45D299529C2008C7583 /* CourseCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5545D45C299529C2008C7583 /* CourseCellViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		5545D4532993DB40008C7583 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		5545D4562993DCE3008C7583 /* CourseDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetailsViewModel.swift; sourceTree = "<group>"; };
 		5545D45A299525F9008C7583 /* CourseListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseListViewModel.swift; sourceTree = "<group>"; };
+		5545D45C299529C2008C7583 /* CourseCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseCellViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				5545D44B2993DA50008C7583 /* CourseCell.swift */,
+				5545D45C299529C2008C7583 /* CourseCellViewModel.swift */,
 			);
 			path = CourseCell;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 				5545D44A2993D875008C7583 /* CourseDetailsViewController.swift in Sources */,
 				5545D45B299525F9008C7583 /* CourseListViewModel.swift in Sources */,
 				5545D4382993D537008C7583 /* SceneDelegate.swift in Sources */,
+				5545D45D299529C2008C7583 /* CourseCellViewModel.swift in Sources */,
 				5545D4542993DB40008C7583 /* DataManager.swift in Sources */,
 				5545D44C2993DA50008C7583 /* CourseCell.swift in Sources */,
 			);
