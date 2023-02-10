@@ -22,6 +22,7 @@
 		5545D4572993DCE3008C7583 /* CourseDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5545D4562993DCE3008C7583 /* CourseDetailsViewModel.swift */; };
 		5545D45B299525F9008C7583 /* CourseListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5545D45A299525F9008C7583 /* CourseListViewModel.swift */; };
 		5545D45D299529C2008C7583 /* CourseCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5545D45C299529C2008C7583 /* CourseCellViewModel.swift */; };
+		5545D46529966BFD008C7583 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5545D46429966BFD008C7583 /* Box.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		5545D4562993DCE3008C7583 /* CourseDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetailsViewModel.swift; sourceTree = "<group>"; };
 		5545D45A299525F9008C7583 /* CourseListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseListViewModel.swift; sourceTree = "<group>"; };
 		5545D45C299529C2008C7583 /* CourseCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseCellViewModel.swift; sourceTree = "<group>"; };
+		5545D46429966BFD008C7583 /* Box.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,18 +76,14 @@
 		5545D4342993D537008C7583 /* MVVMtestApp */ = {
 			isa = PBXGroup;
 			children = (
-				5545D4552993DCAC008C7583 /* CourseDetails */,
-				5545D4352993D537008C7583 /* AppDelegate.swift */,
-				5545D4372993D537008C7583 /* SceneDelegate.swift */,
 				5545D458299525BC008C7583 /* CourseList */,
-				5545D44D2993DA7C008C7583 /* Course.swift */,
-				5545D44F2993DAF0008C7583 /* NetworkManager.swift */,
-				5545D4512993DB24008C7583 /* ImageManager.swift */,
-				5545D4532993DB40008C7583 /* DataManager.swift */,
-				5545D43B2993D537008C7583 /* Main.storyboard */,
-				5545D43E2993D53A008C7583 /* Assets.xcassets */,
-				5545D4402993D53A008C7583 /* LaunchScreen.storyboard */,
-				5545D4432993D53A008C7583 /* Info.plist */,
+				5545D4552993DCAC008C7583 /* CourseDetails */,
+				5545D46029966B0C008C7583 /* Models */,
+				5545D45E29966AE7008C7583 /* Helpers */,
+				5545D46129966B17008C7583 /* Storyboards */,
+				5545D45F29966AFF008C7583 /* Services */,
+				5545D46329966BB9008C7583 /* SupportingFiles */,
+				5545D46229966B9A008C7583 /* Resourses */,
 			);
 			path = MVVMtestApp;
 			sourceTree = "<group>";
@@ -116,6 +114,59 @@
 				5545D45C299529C2008C7583 /* CourseCellViewModel.swift */,
 			);
 			path = CourseCell;
+			sourceTree = "<group>";
+		};
+		5545D45E29966AE7008C7583 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				5545D46429966BFD008C7583 /* Box.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		5545D45F29966AFF008C7583 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5545D44F2993DAF0008C7583 /* NetworkManager.swift */,
+				5545D4512993DB24008C7583 /* ImageManager.swift */,
+				5545D4532993DB40008C7583 /* DataManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		5545D46029966B0C008C7583 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5545D44D2993DA7C008C7583 /* Course.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5545D46129966B17008C7583 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				5545D4402993D53A008C7583 /* LaunchScreen.storyboard */,
+				5545D43B2993D537008C7583 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		5545D46229966B9A008C7583 /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				5545D43E2993D53A008C7583 /* Assets.xcassets */,
+			);
+			path = Resourses;
+			sourceTree = "<group>";
+		};
+		5545D46329966BB9008C7583 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				5545D4352993D537008C7583 /* AppDelegate.swift */,
+				5545D4372993D537008C7583 /* SceneDelegate.swift */,
+				5545D4432993D53A008C7583 /* Info.plist */,
+			);
+			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +246,7 @@
 				5545D4362993D537008C7583 /* AppDelegate.swift in Sources */,
 				5545D4522993DB24008C7583 /* ImageManager.swift in Sources */,
 				5545D4502993DAF0008C7583 /* NetworkManager.swift in Sources */,
+				5545D46529966BFD008C7583 /* Box.swift in Sources */,
 				5545D44A2993D875008C7583 /* CourseDetailsViewController.swift in Sources */,
 				5545D45B299525F9008C7583 /* CourseListViewModel.swift in Sources */,
 				5545D4382993D537008C7583 /* SceneDelegate.swift in Sources */,
@@ -349,7 +401,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4KRJ9XKH55;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MVVMtestApp/Info.plist;
+				INFOPLIST_FILE = MVVMtestApp/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -380,7 +432,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4KRJ9XKH55;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MVVMtestApp/Info.plist;
+				INFOPLIST_FILE = MVVMtestApp/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
